@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 
-import './App.css';
+
+import SearchBar from "./components/SearchBar/SearchBarContainer"
+import "./App.css";
 
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
+    return <SearchBar />
       
-
-      </div>
-    );
   }
 }
 

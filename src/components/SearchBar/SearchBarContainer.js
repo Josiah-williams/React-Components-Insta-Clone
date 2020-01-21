@@ -1,32 +1,26 @@
 // You do not need to change any code in this file
-import React from "react";
+import React, { Component } from "react";
 import "./SearchBar.css";
 
-const SearchBar = () => {
+class SearchBar extends Component {
+  render() {
   return (
-    <div className="search-bar-wrapper">
-      <div className="image-wrapper">
-        <i className="fab fa-instagram" />
-      </div>
-      <form className="search-form">
-        <input
-          type="text"
-          placeholder="Search"
-        />
-      </form>
-      <div className="social-wrapper">
-        <div className="social">
-          <i className="far fa-compass" />
+    <div className="searchBarContainer">
+        <div className="searchBarLogo">
+          <div className="searchBarLogoImg">
+            <i class="fab fa-instagram" />
+          </div>
+          <div className="searchBarLogoText">Instagram</div>
         </div>
-        <div className="social">
-          <i className="far fa-heart" />
-        </div>
-        <div className="social">
-          <i className="far fa-user-circle" />
+        <input type="search" className="search" value="Search" />
+        <div className="icons">
+          <i class="far fa-compass" />
+          <i class="far fa-heart" />
+          <i class="far fa-user" />
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default SearchBar;
