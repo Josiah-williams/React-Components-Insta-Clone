@@ -1,21 +1,18 @@
-/* 
-Start here and then work through the 
-PostsContainer components and the CommentSection Components. 
-Not all files need code added. 
-Look at each file to see where you need to pass props or add code 
-*/
-import React from "react";
-import "./App.css";
-// import the PostsPage and SearchBar and add them to the App
-// import dummydata
+import React, { Component } from 'react';
 
-const App = () => {
-  // set up state for the dummy data and pass to your PostsPage
-  return (
-    <div className="App">
-      {/* Add components here  and pass props where appropriate */}
-    </div>
-  );
-};
+
+import './App.css';
+
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+      
+
+      </div>
+    );
+  }
+}
 
 export default App;
