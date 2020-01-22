@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.searchBarLogoImg {
+.instaIcon{
   font-size: 28px;
   border-right: 1px solid black;
   padding-left: 0px;
@@ -35,10 +35,10 @@ i {
   display: flex;
 }
 
-.icon {
+/* .icon {
   padding-left: 5px;
   padding-right: 5px;
-}
+} */
 
 input {
   padding-right: 25px;
