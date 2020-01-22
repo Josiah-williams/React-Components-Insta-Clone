@@ -42,9 +42,35 @@ const dummyData = [
             {
                 username: "dennis_futbol",
                 text: "It that injustice"
-            }
-        ]
-    }
+            },
+        {
+     username: "dennis_futbol",
+    text: "Is"
+  }
+]
+},
+{
+username: "playhearthstone",
+    thumbnailUrl:
+      "https://tk-assets.lambdaschool.com/c432f179-8bd7-4758-959d-d88a21f96bca_37105899_432228420518610_5035444036064772096_n.jpg",
+    imageUrl:
+      "https://tk-assets.lambdaschool.com/43bf01f9-319c-469d-8cf5-0120fe1007f1_yosemite.jpg",
+    likes: 5306,
+    timestamp: "January 14th 2020, 10:04:08 am",
+    comments: [
+      {
+        username: "playhearthstone",
+        text: "Love this shot!"
+      },
+      {
+        username: "awaywetravel",
+        text: "Yosemite is my most favorite place in the universe"
+      },
+      {
+        username: "awesomebt28",
+        text: "I like how Half Dome looks so old and useless"
+      }
+    ]
+  }
 ];
-
 export default dummyData;
